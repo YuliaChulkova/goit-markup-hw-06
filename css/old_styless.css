@@ -241,6 +241,7 @@ background-image: linear-gradient(to bottom,
   margin-left: auto;
 }
 .team-list {display: flex;
+ 
   gap: 24px;
   margin-right: auto;
   margin-left: auto;
