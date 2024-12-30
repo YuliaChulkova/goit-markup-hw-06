@@ -329,7 +329,7 @@ margin-left: auto;
 
 .about {padding: 96px 0;}
 
-.container {}
+
 
 .about-list {
 display: block;
@@ -477,7 +477,7 @@ font-weight: 400;
 
         .portfolio {padding: 96px 0}
     
-        .container {}
+        
     
         .portfolio-container {}
     
@@ -575,10 +575,8 @@ font-weight: 400;
 .footer {
 background-color: #2e2f42;
 padding-top:96px;
+padding-bottom: 96px;
 }
-        
-        
-.container {}
         
 .footer-container {
 display: block;
@@ -669,7 +667,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-subscribe {
 display: block;
-padding-bottom: 96px;
 }
 
 
@@ -1077,8 +1074,17 @@ background-image: linear-gradient(to bottom,
    .about-title {
     text-align: left;
         align-items: center;
+        
    }
-
+.team-list {
+    column-gap: 24px;
+        row-gap: 64px;
+        justify-content: center;
+    
+}
+.team-item{
+    margin: 0;
+}
 .portfolio-list {
         display: flex;
         flex-wrap: wrap;
@@ -1092,11 +1098,12 @@ background-image: linear-gradient(to bottom,
 }
 
 .footer {
-    padding-left: 108px;
+    /* padding-left: 108px; */
 }
 .footer-container {
     display: flex;
         flex-wrap: wrap;
+        width: 584px;
         column-gap: 24px;
             row-gap: 72px;
             text-align: left;
@@ -1142,7 +1149,7 @@ background-image: linear-gradient(to bottom,
 }
 
  
-
+/*=====DESKTOP==== */
 @media screen and (max-width: 1157.98px) {
     .icon-container-about {
         display: none;
